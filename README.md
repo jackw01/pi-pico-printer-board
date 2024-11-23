@@ -26,15 +26,17 @@
 
 ![](images/all_layers.png)
 
-![](images/top.jpg)
-
 ![](images/bottom.jpg)
+
+![](images/top.jpg)
 
 ![](images/rendering.jpg)
 
 [Schematic as PDF](pcb/rpi%20pico%20printer%20board%20rev1%2020241010.pdf)
 
 [Sample Klipper Configuration File](klipper/printer.cfg)
+
+[BOM (Excel)](pcb/bom.xlsx)
 
 ### License
 This project is released under the CERN Open Hardware Licence Version 2 - Weakly Reciprocal (CERN-OHL-W V2).
