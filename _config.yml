@@ -1,0 +1,5 @@
+remote_theme: jackw01/jackw01.github.io
+title: Pi Pico Printer Board
+hide_first_h1: true
+plugins:
+  - jekyll-seo-tag

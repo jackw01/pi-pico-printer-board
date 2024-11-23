@@ -1,0 +1,5557 @@
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "66062ce2-f50c-4c0b-b3e7-2b2f2e72f03a")
+	(paper "A4")
+	(lib_symbols
+		(symbol "Connector_Generic:Conn_01x04"
+			(pin_names
+				(offset 1.016) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Conn_01x04"
+				(at 0 -7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "connector"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Connector*:*_1x??_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Conn_01x04_1_1"
+				(rectangle
+					(start -1.27 -4.953)
+					(end 0 -5.207)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 -2.413)
+					(end 0 -2.667)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 0.127)
+					(end 0 -0.127)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 2.667)
+					(end 0 2.413)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 3.81)
+					(end 1.27 -6.35)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin passive line
+					(at -5.08 2.54 0)
+					(length 3.81)
+					(name "Pin_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 3.81)
+					(name "Pin_2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -2.54 0)
+					(length 3.81)
+					(name "Pin_3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -5.08 0)
+					(length 3.81)
+					(name "Pin_4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "Device:C"
+			(pin_numbers hide)
+			(pin_names
+				(offset 0.254)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "C"
+				(at 0.635 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "C"
+				(at 0.635 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at 0.9652 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Unpolarized capacitor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "cap capacitor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "C_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "C_0_1"
+				(polyline
+					(pts
+						(xy -2.032 -0.762) (xy 2.032 -0.762)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.032 0.762) (xy 2.032 0.762)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "C_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 2.794)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 2.794)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "Device:R_US"
+			(pin_numbers hide)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "R"
+				(at 2.54 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "R_US"
+				(at -2.54 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 1.016 -0.254 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Resistor, US symbol"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "R res resistor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "R_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "R_US_0_1"
+				(polyline
+					(pts
+						(xy 0 -2.286) (xy 0 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.286) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -0.762) (xy 1.016 -1.143) (xy 0 -1.524) (xy -1.016 -1.905) (xy 0 -2.286)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0.762) (xy 1.016 0.381) (xy 0 0) (xy -1.016 -0.381) (xy 0 -0.762)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.286) (xy 1.016 1.905) (xy 0 1.524) (xy -1.016 1.143) (xy 0 0.762)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "R_US_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "Device:Varistor_US"
+			(pin_numbers hide)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "RV"
+				(at 3.175 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Varistor_US"
+				(at -3.175 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at -1.778 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Voltage dependent resistor, US symbol"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Sim.Name" "kicad_builtin_varistor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Sim.Device" "SUBCKT"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Sim.Pins" "1=A 2=B"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Sim.Params" "threshold=1k"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Sim.Library" "${KICAD7_SYMBOL_DIR}/Simulation_SPICE.sp"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "VDR resistance"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "RV_* Varistor*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Varistor_US_0_0"
+				(text "U"
+					(at -1.778 -2.032 0)
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(symbol "Varistor_US_0_1"
+				(polyline
+					(pts
+						(xy 0 -2.286) (xy 0 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.286) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.905 2.54) (xy -1.905 1.27) (xy 1.905 -1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -0.762) (xy 1.016 -1.143) (xy 0 -1.524) (xy -1.016 -1.905) (xy 0 -2.286)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0.762) (xy 1.016 0.381) (xy 0 0) (xy -1.016 -0.381) (xy 0 -0.762)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.286) (xy 1.016 1.905) (xy 0 1.524) (xy -1.016 1.143) (xy 0 0.762)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "Varistor_US_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "Driver_Motor:Pololu_Breakout_A4988"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "A101"
+				(at 7.2741 20.32 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "Stepper Driver Breakout"
+				(at 7.2741 17.78 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "Module:Pololu_Breakout-16_15.2x20.3mm"
+				(at 6.985 -19.05 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 2.54 -7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "Pololu Breakout Board Stepper Driver A4988"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Pololu*Breakout*15.2x20.3mm*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Pololu_Breakout_A4988_0_1"
+				(rectangle
+					(start -12.7 15.24)
+					(end 12.7 -15.24)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+			)
+			(symbol "Pololu_Breakout_A4988_1_1"
+				(pin power_in line
+					(at 15.24 -12.7 180)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -15.24 7.62 0)
+					(length 2.54)
+					(name "MS1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -15.24 5.08 0)
+					(length 2.54)
+					(name "MS2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "11"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -15.24 2.54 0)
+					(length 2.54)
+					(name "MS3/RX"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "12"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -15.24 -3.81 0)
+					(length 2.54)
+					(name "~{RESET}/TX"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "13"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -15.24 -6.35 0)
+					(length 2.54)
+					(name "~{SLEEP}/CLK"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "14"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -15.24 -10.16 0)
+					(length 2.54)
+					(name "STEP"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "15"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -15.24 -12.7 0)
+					(length 2.54)
+					(name "DIR"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "16"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -1.27 17.78 270)
+					(length 2.54)
+					(name "INDEX"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "17"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 1.27 17.78 270)
+					(length 2.54)
+					(name "DIAG"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "18"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 15.24 -10.16 180)
+					(length 2.54)
+					(name "VDD"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 15.24 -3.81 180)
+					(length 2.54)
+					(name "1B"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 15.24 -1.27 180)
+					(length 2.54)
+					(name "1A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 15.24 1.27 180)
+					(length 2.54)
+					(name "2A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 15.24 3.81 180)
+					(length 2.54)
+					(name "2B"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 15.24 10.16 180)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 15.24 12.7 180)
+					(length 2.54)
+					(name "VMOT"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -15.24 12.7 0)
+					(length 2.54)
+					(name "~{ENABLE}"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "Jumper:SolderJumper_2_Open"
+			(pin_numbers hide)
+			(pin_names
+				(offset 0) hide)
+			(exclude_from_sim yes)
+			(in_bom no)
+			(on_board yes)
+			(property "Reference" "JP"
+				(at 0 2.032 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "SolderJumper_2_Open"
+				(at 0 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Solder Jumper, 2-pole, open"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "solder jumper SPST"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "SolderJumper*Open*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "SolderJumper_2_Open_0_1"
+				(arc
+					(start -0.254 1.016)
+					(mid -1.2656 0)
+					(end -0.254 -1.016)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start -0.254 1.016)
+					(mid -1.2656 0)
+					(end -0.254 -1.016)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.254 1.016) (xy -0.254 -1.016)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.254 1.016) (xy 0.254 -1.016)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 0.254 -1.016)
+					(mid 1.2656 0)
+					(end 0.254 1.016)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 0.254 -1.016)
+					(mid 1.2656 0)
+					(end 0.254 1.016)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+			)
+			(symbol "SolderJumper_2_Open_1_1"
+				(pin passive line
+					(at -3.81 0 0)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 3.81 0 180)
+					(length 2.54)
+					(name "B"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "Jumper:SolderJumper_3_Open"
+			(pin_names
+				(offset 0) hide)
+			(exclude_from_sim yes)
+			(in_bom no)
+			(on_board yes)
+			(property "Reference" "JP"
+				(at -2.54 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "SolderJumper_3_Open"
+				(at 0 2.794 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Solder Jumper, 3-pole, open"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "Solder Jumper SPDT"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "SolderJumper*Open*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "SolderJumper_3_Open_0_1"
+				(arc
+					(start -1.016 1.016)
+					(mid -2.0276 0)
+					(end -1.016 -1.016)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start -1.016 1.016)
+					(mid -2.0276 0)
+					(end -1.016 -1.016)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start -0.508 1.016)
+					(end 0.508 -1.016)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.54 0) (xy -2.032 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.016 1.016) (xy -1.016 -1.016)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -1.27) (xy 0 -1.016)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.016 1.016) (xy 1.016 -1.016)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 0) (xy 2.032 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 1.016 -1.016)
+					(mid 2.0276 0)
+					(end 1.016 1.016)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 1.016 -1.016)
+					(mid 2.0276 0)
+					(end 1.016 1.016)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+			)
+			(symbol "SolderJumper_3_Open_1_1"
+				(pin passive line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 2.54)
+					(name "C"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 0 180)
+					(length 2.54)
+					(name "B"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "power:+24V"
+			(power)
+			(pin_numbers hide)
+			(pin_names
+				(offset 0) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "+24V"
+				(at 0 3.556 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"+24V\""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "+24V_0_1"
+				(polyline
+					(pts
+						(xy -0.762 1.27) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "+24V_1_1"
+				(pin power_in line
+					(at 0 0 90)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "power:+3V3"
+			(power)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "+3V3"
+				(at 0 3.556 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"+3V3\""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "power-flag"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "+3V3_0_1"
+				(polyline
+					(pts
+						(xy -0.762 1.27) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "+3V3_1_1"
+				(pin power_in line
+					(at 0 0 90)
+					(length 0) hide
+					(name "+3V3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "power:GND"
+			(power)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "GND"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "power-flag"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "GND_0_1"
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 -1.27) (xy 1.27 -1.27) (xy 0 -2.54) (xy -1.27 -1.27) (xy 0 -1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "GND_1_1"
+				(pin power_in line
+					(at 0 0 270)
+					(length 0) hide
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+	)
+	(junction
+		(at 99.06 86.36)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "07fd366a-184f-4f18-8616-703161146cfb")
+	)
+	(junction
+		(at 182.88 100.33)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0bdbbbbd-506f-45ae-b7ae-958d74a472aa")
+	)
+	(junction
+		(at 99.06 78.74)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "19f0f6c7-645b-4ef2-9597-d9530814d669")
+	)
+	(junction
+		(at 99.06 93.98)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2201387f-ecfd-4a7f-8668-002b7c9d1d18")
+	)
+	(junction
+		(at 177.8 97.79)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2f0fa67b-f6c0-41eb-9796-7ff324ce49af")
+	)
+	(junction
+		(at 187.96 102.87)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3b293c20-ba2d-4579-910f-287b8b59b4ee")
+	)
+	(junction
+		(at 161.29 66.04)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4f3edbb9-67db-4f6c-bc70-52bacfb21422")
+	)
+	(junction
+		(at 170.18 95.25)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5fb68cd3-60d7-4a7e-af7a-09401026a35c")
+	)
+	(junction
+		(at 86.36 78.74)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "616e3619-a84b-448f-95d3-fa763e8d9d55")
+	)
+	(junction
+		(at 99.06 71.12)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6e367a39-28b8-4c0b-b850-18317e464dca")
+	)
+	(junction
+		(at 181.61 100.33)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8459ba7d-f97d-44f5-ad5b-17b08d58274f")
+	)
+	(junction
+		(at 168.91 95.25)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "93bb89a8-4b36-4b39-9146-04ba2a74e92a")
+	)
+	(junction
+		(at 190.5 102.87)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9a8c67ab-5cd3-463c-8a7c-e6daf06d0dc8")
+	)
+	(junction
+		(at 86.36 101.6)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "dc1b4f8a-ec52-4562-a133-b5bedfbd21ba")
+	)
+	(junction
+		(at 175.26 97.79)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "fe45e3f6-a3cb-4ab8-b661-2240b108fcb7")
+	)
+	(no_connect
+		(at 138.43 81.28)
+		(uuid "8c04df73-18ce-413a-a3b9-85ba083ab554")
+	)
+	(wire
+		(pts
+			(xy 104.14 96.52) (xy 124.46 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0708ff3b-e8a0-421e-b9ea-fc8a8274c872")
+	)
+	(wire
+		(pts
+			(xy 99.06 86.36) (xy 97.79 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "092fb76f-2ad5-4ee0-a574-4695d5f1440f")
+	)
+	(wire
+		(pts
+			(xy 154.94 95.25) (xy 168.91 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "09b38b18-ad2f-4717-8dff-d7f25e0518ed")
+	)
+	(wire
+		(pts
+			(xy 101.6 102.87) (xy 124.46 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0eb49599-ee8f-43c9-9f35-66a01f4b67d2")
+	)
+	(wire
+		(pts
+			(xy 170.18 95.25) (xy 203.2 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1839a7d4-2959-4f3f-806a-00bc5d5cfa04")
+	)
+	(wire
+		(pts
+			(xy 175.26 97.79) (xy 177.8 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1b44155f-85ff-4d47-894c-aca1d037b179")
+	)
+	(wire
+		(pts
+			(xy 86.36 101.6) (xy 87.63 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2312563f-10ba-469b-ab8f-919c5cff0998")
+	)
+	(wire
+		(pts
+			(xy 190.5 102.87) (xy 203.2 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "24118193-2aa2-4f2c-af36-1017aecc6b9e")
+	)
+	(wire
+		(pts
+			(xy 190.5 90.17) (xy 190.5 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "266afeaa-dcd7-403b-a7aa-a46950c48856")
+	)
+	(wire
+		(pts
+			(xy 154.94 102.87) (xy 187.96 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "29800c6e-66d6-4745-a939-bf9a6b4bb821")
+	)
+	(wire
+		(pts
+			(xy 105.41 93.98) (xy 124.46 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "342ee28e-10c5-4ef8-aa1b-34d086f144ef")
+	)
+	(wire
+		(pts
+			(xy 114.3 111.76) (xy 124.46 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "34e30b7b-bb02-4a23-bc73-569f85a955fa")
+	)
+	(wire
+		(pts
+			(xy 175.26 97.79) (xy 175.26 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "35843172-01db-440d-bb94-686e01daf4a4")
+	)
+	(wire
+		(pts
+			(xy 99.06 71.12) (xy 99.06 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3f2f9d82-17bf-4f7c-bd12-7ed3fa8f1d95")
+	)
+	(wire
+		(pts
+			(xy 86.36 78.74) (xy 86.36 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "42317cda-af58-45fe-8740-799467840e7d")
+	)
+	(wire
+		(pts
+			(xy 128.27 78.74) (xy 140.97 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "47023829-6f7e-4d3d-9190-6909ce5d8169")
+	)
+	(wire
+		(pts
+			(xy 99.06 78.74) (xy 97.79 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "555e8593-05ee-45ba-a810-8b4d58304255")
+	)
+	(wire
+		(pts
+			(xy 83.82 93.98) (xy 87.63 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "575d6813-35ad-48d1-ae59-2b552985bde3")
+	)
+	(wire
+		(pts
+			(xy 161.29 66.04) (xy 161.29 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "621c0b81-9eea-4d59-8127-d63fb6c48504")
+	)
+	(wire
+		(pts
+			(xy 182.88 100.33) (xy 203.2 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "65d8ec2f-8367-4390-903f-0e2dc7f13fe7")
+	)
+	(wire
+		(pts
+			(xy 105.41 82.55) (xy 92.71 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "662f8128-aed4-4f72-bb34-d1e5f71db856")
+	)
+	(wire
+		(pts
+			(xy 140.97 78.74) (xy 140.97 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6ea705ea-b003-40c7-8d42-84315fee6e3c")
+	)
+	(wire
+		(pts
+			(xy 114.3 86.36) (xy 124.46 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "73d4616d-de5b-4526-9340-aae113289a3a")
+	)
+	(wire
+		(pts
+			(xy 86.36 71.12) (xy 86.36 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7575f3a2-d04e-415f-beed-56ac034172f7")
+	)
+	(wire
+		(pts
+			(xy 105.41 93.98) (xy 105.41 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7614417f-486c-4909-9907-dd352249aa9b")
+	)
+	(wire
+		(pts
+			(xy 83.82 86.36) (xy 87.63 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7e9e7e06-0397-405a-8632-f0bfb9d81133")
+	)
+	(wire
+		(pts
+			(xy 86.36 102.87) (xy 86.36 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "825ce477-bc38-4a0f-906b-373d2b1a0789")
+	)
+	(wire
+		(pts
+			(xy 106.68 74.93) (xy 106.68 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8eea8537-dcbd-4ee8-9e4b-8f6978bdda0c")
+	)
+	(wire
+		(pts
+			(xy 154.94 100.33) (xy 181.61 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "90b5e4ca-28ec-4f91-8b8d-a94075ccf95d")
+	)
+	(wire
+		(pts
+			(xy 104.14 90.17) (xy 104.14 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "929cfde8-e08f-47e2-817c-3053afda9d67")
+	)
+	(wire
+		(pts
+			(xy 187.96 102.87) (xy 190.5 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "96830675-db4a-44cb-993b-913407cedebf")
+	)
+	(wire
+		(pts
+			(xy 170.18 90.17) (xy 170.18 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "99736842-8a03-4b48-afac-ed1a0d446a95")
+	)
+	(wire
+		(pts
+			(xy 106.68 91.44) (xy 124.46 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9b2b55ed-610a-4bf8-8bad-67dce63048d6")
+	)
+	(wire
+		(pts
+			(xy 177.8 97.79) (xy 203.2 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9b34dee2-ead8-420b-bbad-de1c32b45567")
+	)
+	(wire
+		(pts
+			(xy 97.79 101.6) (xy 99.06 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9c427be6-0cd7-468f-b3af-c9f73a264de3")
+	)
+	(wire
+		(pts
+			(xy 74.93 86.36) (xy 76.2 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9e348c37-818f-437c-aeb8-0f2a84b80251")
+	)
+	(wire
+		(pts
+			(xy 74.93 93.98) (xy 76.2 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "aa5edad1-3527-4fad-85d4-359dc9d9bf9f")
+	)
+	(wire
+		(pts
+			(xy 92.71 97.79) (xy 101.6 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "abde26d5-ba5f-4c73-b227-03bdf62638fd")
+	)
+	(wire
+		(pts
+			(xy 156.21 86.36) (xy 156.21 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "af0c5f7b-7046-430a-94cb-be068e1c9b7a")
+	)
+	(wire
+		(pts
+			(xy 181.61 100.33) (xy 182.88 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b0b28e5d-3a96-411e-be1b-528b039e2af5")
+	)
+	(wire
+		(pts
+			(xy 177.8 90.17) (xy 177.8 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b296e5c3-15e6-461f-89ac-8dcee54a73c2")
+	)
+	(wire
+		(pts
+			(xy 92.71 74.93) (xy 106.68 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b769a565-4326-47ed-b3d2-d26bcec70de8")
+	)
+	(wire
+		(pts
+			(xy 99.06 86.36) (xy 99.06 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bf6a9e18-b773-49ee-bdaf-447bec536722")
+	)
+	(wire
+		(pts
+			(xy 168.91 95.25) (xy 168.91 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c092b063-931b-4ec3-84e9-130375b5e560")
+	)
+	(wire
+		(pts
+			(xy 168.91 95.25) (xy 170.18 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c0c806e9-eb4b-4c01-adee-463e6c908d1a")
+	)
+	(wire
+		(pts
+			(xy 97.79 93.98) (xy 99.06 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c24f00ce-64a5-4097-be40-d1d660fb0357")
+	)
+	(wire
+		(pts
+			(xy 182.88 90.17) (xy 182.88 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c3a8aa20-87a0-4067-96ad-f78813094dcd")
+	)
+	(wire
+		(pts
+			(xy 92.71 105.41) (xy 124.46 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c4a603fb-deec-436f-93c8-114bd63e0534")
+	)
+	(wire
+		(pts
+			(xy 101.6 97.79) (xy 101.6 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cc253b28-fa8b-47f6-bec2-7a27435b5445")
+	)
+	(wire
+		(pts
+			(xy 181.61 100.33) (xy 181.61 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cde1bc7b-24e2-435a-a096-139643ffc5f5")
+	)
+	(wire
+		(pts
+			(xy 86.36 71.12) (xy 87.63 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d45613eb-1f42-43e8-88d1-804710e6aa9d")
+	)
+	(wire
+		(pts
+			(xy 86.36 78.74) (xy 87.63 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d603a5f4-85fa-4576-8837-e490ee2c0d00")
+	)
+	(wire
+		(pts
+			(xy 114.3 109.22) (xy 124.46 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d62e55bf-0d9b-4d1b-a670-2e49465d00f7")
+	)
+	(wire
+		(pts
+			(xy 156.21 66.04) (xy 161.29 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ded71919-6f08-444f-91b9-3304b83f30b3")
+	)
+	(wire
+		(pts
+			(xy 99.06 86.36) (xy 99.06 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e39f553b-8c78-48e6-823e-ceac1f827e69")
+	)
+	(wire
+		(pts
+			(xy 92.71 90.17) (xy 104.14 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e5159641-294a-4b7e-8705-6e5bc3fe7f6a")
+	)
+	(wire
+		(pts
+			(xy 97.79 71.12) (xy 99.06 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ea158218-97eb-431c-948d-af666364bc8b")
+	)
+	(wire
+		(pts
+			(xy 99.06 69.85) (xy 99.06 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f374455c-d7cd-4f98-a815-ab7f2b96bfed")
+	)
+	(wire
+		(pts
+			(xy 154.94 86.36) (xy 156.21 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f39d7cbe-1481-477c-8355-b76a7d617802")
+	)
+	(wire
+		(pts
+			(xy 187.96 102.87) (xy 187.96 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fa94d9b6-4c57-462d-9bf1-b4ccf1a37205")
+	)
+	(wire
+		(pts
+			(xy 154.94 97.79) (xy 175.26 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fd6981bc-525d-4521-ad75-99fab15a4397")
+	)
+	(wire
+		(pts
+			(xy 119.38 78.74) (xy 120.65 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fd975e2f-74aa-4143-bfbc-e3a3c6975c0e")
+	)
+	(wire
+		(pts
+			(xy 99.06 93.98) (xy 99.06 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ff83f4f5-d8f1-4365-a518-3cad37c0d0f2")
+	)
+	(text "driver protection per TMC2209 datasheet\n"
+		(exclude_from_sim no)
+		(at 179.324 134.112 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "00d3960e-ed8e-4ac2-ac82-62978401ee98")
+	)
+	(text "for A4988:\n  MS1, MS2, MS3 to 3.3V to set microstepping\n  RESET, SLEEP to 3.3V\n\nfor TMC2209:\n  MS1, MS2 to 3.3V or GND to set UART address\n  RX to MCU RX\n  TX to MCU TX through resistor\n  CLK to GND"
+		(exclude_from_sim no)
+		(at 57.912 120.904 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "21d2c927-00c1-41e0-9d06-6e96e42241f8")
+	)
+	(hierarchical_label "TX"
+		(shape input)
+		(at 74.93 93.98 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "2c0a5c3e-c250-469a-bbf5-2e5724f4906f")
+	)
+	(hierarchical_label "1B"
+		(shape output)
+		(at 195.58 102.87 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "2fa113d5-d1b3-46e4-97da-f0d6840151d5")
+	)
+	(hierarchical_label "EN"
+		(shape input)
+		(at 114.3 86.36 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "93892db7-2148-4b1d-a55f-18a488d7792a")
+	)
+	(hierarchical_label "2B"
+		(shape output)
+		(at 195.58 95.25 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "9e780b7d-46b9-46e7-9f37-b354ad0d1ceb")
+	)
+	(hierarchical_label "DIAG"
+		(shape output)
+		(at 119.38 78.74 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "a6fadd9a-232d-4fe9-94e8-5d2c9798bebe")
+	)
+	(hierarchical_label "2A"
+		(shape output)
+		(at 195.58 97.79 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "d867b881-cc4b-47ed-b4e9-46a818130676")
+	)
+	(hierarchical_label "1A"
+		(shape output)
+		(at 195.58 100.33 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "e3375ef6-7040-4cd7-b724-21c192841eac")
+	)
+	(hierarchical_label "STEP"
+		(shape input)
+		(at 114.3 109.22 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "e6ebea90-9704-425a-88ab-912999346951")
+	)
+	(hierarchical_label "RX"
+		(shape output)
+		(at 74.93 86.36 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "f4a15319-ae99-4aac-b940-c150e7ec257c")
+	)
+	(hierarchical_label "DIR"
+		(shape input)
+		(at 114.3 111.76 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "f9c05fc3-09b8-459d-8ab6-91ec663ec4ca")
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 181.61 121.92 0)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "051e36e8-9662-4bd4-9e5e-4e19deda60d0")
+		(property "Reference" "C505"
+			(at 177.546 120.396 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "1n"
+			(at 179.578 120.396 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 182.5752 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 181.61 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 181.61 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SMT" "Y"
+			(at 181.61 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Basic Part" "CL10B102KB8NNNC "
+			(at 181.61 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "CL10B102KB8NNNC "
+			(at 181.61 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "e5c06036-83eb-4965-8958-ae9bd1361f13")
+		)
+		(pin "1"
+			(uuid "f02efc08-b614-479c-b202-1255a6ef536e")
+		)
+		(instances
+			(project "rpi pico printer board"
+				(path "/b86fc60c-dd63-4451-b214-3ffb7e818451/30849447-4a26-4bcd-ac30-4cbf4d915378"
+					(reference "C505")
+					(unit 1)
+				)
+				(path "/b86fc60c-dd63-4451-b214-3ffb7e818451/b576315b-cfac-43a9-a7f4-35a8d6c546d6"
+					(reference "C405")
+					(unit 1)
+				)
+				(path "/b86fc60c-dd63-4451-b214-3ffb7e818451/c95ee7f9-7fa4-4bdb-a483-aaca46f0966a"
+					(reference "C305")
+					(unit 1)
+				)
+				(path "/b86fc60c-dd63-4451-b214-3ffb7e818451/e10c5975-1151-4adc-aec3-a2da788461ba"
+					(reference "C205")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Jumper:SolderJumper_3_Open")
+		(at 92.71 86.36 0)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(uuid "0d4f0db8-1665-4c74-84c9-6c9b835621f6")
+		(property "Reference" "JP504"
+			(at 95.504 89.154 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SolderJumper_3_Open"
+			(at 92.71 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Custom:Bi_0603_Open"
+			(at 92.71 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 92.71 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Solder Jumper, 3-pole, open"
+			(at 92.71 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SMT" ""
+			(at 92.71 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Basic Part" ""
+			(at 92.71 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "c41357ea-6b84-4929-8ee3-55642fed150a")
+		)
+		(pin "2"
+			(uuid "71eae9ef-a54f-4649-993a-3cd8abb216c9")
+		)
+		(pin "1"
+			(uuid "e4af86e7-207d-4a31-9194-e0af45ae543b")
+		)
+		(instances
+			(project "rpi pico printer board"
+				(path "/b86fc60c-dd63-4451-b214-3ffb7e818451/30849447-4a26-4bcd-ac30-4cbf4d915378"
+					(reference "JP504")
+					(unit 1)
+				)
+				(path "/b86fc60c-dd63-4451-b214-3ffb7e818451/b576315b-cfac-43a9-a7f4-35a8d6c546d6"
+					(reference "JP404")
+					(unit 1)
+				)
+				(path "/b86fc60c-dd63-4451-b214-3ffb7e818451/c95ee7f9-7fa4-4bdb-a483-aaca46f0966a"
+					(reference "JP304")
+					(unit 1)
+				)
+				(path "/b86fc60c-dd63-4451-b214-3ffb7e818451/e10c5975-1151-4adc-aec3-a2da788461ba"
+					(reference "JP204")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_US")
+		(at 80.01 93.98 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "18ae0e95-7cf6-429f-8ba4-ed82d4d1044a")
+		(property "Reference" "R502"
+			(at 78.7399 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "1k"
+			(at 81.2799 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 80.264 92.964 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 80.01 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, US symbol"
+			(at 80.01 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SMT" "Y"
+			(at 80.01 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Basic Part" "0603WAF1001T5E"
+			(at 80.01 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "5c65dcaf-0753-439e-81e9-4987aec4b838")
+		)
+		(pin "1"
+			(uuid "b393ee18-ba96-4046-994c-7fb5bbc9592f")
+		)
+		(instances
+			(project "rpi pico printer board"
+				(path "/b86fc60c-dd63-4451-b214-3ffb7e818451/30849447-4a26-4bcd-ac30-4cbf4d915378"
+					(reference "R502")
+					(unit 1)
+				)
+				(path "/b86fc60c-dd63-4451-b214-3ffb7e818451/b576315b-cfac-43a9-a7f4-35a8d6c546d6"
+					(reference "R402")
+					(unit 1)
+				)
+				(path "/b86fc60c-dd63-4451-b214-3ffb7e818451/c95ee7f9-7fa4-4bdb-a483-aaca46f0966a"
+					(reference "R302")
+					(unit 1)
+				)
+				(path "/b86fc60c-dd63-4451-b214-3ffb7e818451/e10c5975-1151-4adc-aec3-a2da788461ba"
+					(reference "R202")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 187.96 121.92 0)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "2feae40c-5b34-4f31-b5f7-006b6eab3945")
+		(property "Reference" "C506"
+			(at 183.896 120.396 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "1n"
+			(at 185.928 120.396 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 188.9252 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 187.96 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 187.96 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SMT" "Y"
+			(at 187.96 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Basic Part" "CL10B102KB8NNNC "
+			(at 187.96 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "CL10B102KB8NNNC "
+			(at 187.96 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "679d58eb-6734-49c0-9cda-5b4031ed09c8")
+		)
+		(pin "1"
+			(uuid "7b7b86e3-a229-4439-b9c5-a8e3ab674c90")
+		)
+		(instances
+			(project "rpi pico printer board"
+				(path "/b86fc60c-dd63-4451-b214-3ffb7e818451/30849447-4a26-4bcd-ac30-4cbf4d915378"
+					(reference "C506")
+					(unit 1)
+				)
+				(path "/b86fc60c-dd63-4451-b214-3ffb7e818451/b576315b-cfac-43a9-a7f4-35a8d6c546d6"
+					(reference "C406")
+					(unit 1)
+				)
+				(path "/b86fc60c-dd63-4451-b214-3ffb7e818451/c95ee7f9-7fa4-4bdb-a483-aaca46f0966a"
+					(reference "C306")
+					(unit 1)
+				)
+				(path "/b86fc60c-dd63-4451-b214-3ffb7e818451/e10c5975-1151-4adc-aec3-a2da788461ba"
+					(reference "C206")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 175.26 125.73 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "373852b5-31a3-42a3-8743-952408d2b58d")
+		(property "Reference" "#PWR0510"
+			(at 175.26 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 173.228 129.794 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 175.26 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 175.26 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 175.26 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "bd5d6220-555a-4463-99b9-87e440f1ba7f")
+		)
+		(instances
+			(project "rpi pico printer board"
+				(path "/b86fc60c-dd63-4451-b214-3ffb7e818451/30849447-4a26-4bcd-ac30-4cbf4d915378"
+					(reference "#PWR0510")
+					(unit 1)
+				)
+				(path "/b86fc60c-dd63-4451-b214-3ffb7e818451/b576315b-cfac-43a9-a7f4-35a8d6c546d6"
+					(reference "#PWR0410")
+					(unit 1)
+				)
+				(path "/b86fc60c-dd63-4451-b214-3ffb7e818451/c95ee7f9-7fa4-4bdb-a483-aaca46f0966a"
+					(reference "#PWR0310")
+					(unit 1)
+				)
+				(path "/b86fc60c-dd63-4451-b214-3ffb7e818451/e10c5975-1151-4adc-aec3-a2da788461ba"
+					(reference "#PWR0210")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 168.91 125.73 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "3df4066f-1dd3-475a-b309-83355e2365f5")
+		(property "Reference" "#PWR0509"
+			(at 168.91 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 166.878 129.794 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 168.91 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 168.91 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 168.91 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "31954b25-7aa1-4d02-b488-0bb93640a617")
+		)
+		(instances
+			(project "rpi pico printer board"
+				(path "/b86fc60c-dd63-4451-b214-3ffb7e818451/30849447-4a26-4bcd-ac30-4cbf4d915378"
+					(reference "#PWR0509")
+					(unit 1)
+				)
+				(path "/b86fc60c-dd63-4451-b214-3ffb7e818451/b576315b-cfac-43a9-a7f4-35a8d6c546d6"
+					(reference "#PWR0409")
+					(unit 1)
+				)
+				(path "/b86fc60c-dd63-4451-b214-3ffb7e818451/c95ee7f9-7fa4-4bdb-a483-aaca46f0966a"
+					(reference "#PWR0309")
+					(unit 1)
+				)
+				(path "/b86fc60c-dd63-4451-b214-3ffb7e818451/e10c5975-1151-4adc-aec3-a2da788461ba"
+					(reference "#PWR0209")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 86.36 102.87 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "46f7249b-7c98-41f2-9ba7-b9aaf4d93824")
+		(property "Reference" "#PWR04"
+			(at 86.36 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 84.328 106.934 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 86.36 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 86.36 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 86.36 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "014725c5-eb57-4a1f-94e3-dedec561f2d0")
+		)
+		(instances
+			(project "rpi pico printer board"
+				(path "/b86fc60c-dd63-4451-b214-3ffb7e818451/30849447-4a26-4bcd-ac30-4cbf4d915378"
+					(reference "#PWR04")
+					(unit 1)
+				)
+				(path "/b86fc60c-dd63-4451-b214-3ffb7e818451/b576315b-cfac-43a9-a7f4-35a8d6c546d6"
+					(reference "#PWR03")
+					(unit 1)
+				)
+				(path "/b86fc60c-dd63-4451-b214-3ffb7e818451/c95ee7f9-7fa4-4bdb-a483-aaca46f0966a"
+					(reference "#PWR02")
+					(unit 1)
+				)
+				(path "/b86fc60c-dd63-4451-b214-3ffb7e818451/e10c5975-1151-4adc-aec3-a2da788461ba"
+					(reference "#PWR01")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Jumper:SolderJumper_2_Open")
+		(at 124.46 78.74 0)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(uuid "48de6e3d-3874-4b58-8d7a-c375c00b4576")
+		(property "Reference" "JP503"
+			(at 124.46 76.454 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SolderJumper_2_Open"
+			(at 124.46 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Custom:Jumper_0603"
+			(at 124.46 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 124.46 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Solder Jumper, 2-pole, open"
+			(at 124.46 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SMT" ""
+			(at 124.46 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Basic Part" ""
+			(at 124.46 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "85b48b2a-6745-4ceb-b7b4-cdd888f11825")
+		)
+		(pin "1"
+			(uuid "e08b00f3-e547-4070-9a34-349425a35b3e")
+		)
+		(instances
+			(project ""
+				(path "/b86fc60c-dd63-4451-b214-3ffb7e818451/30849447-4a26-4bcd-ac30-4cbf4d915378"
+					(reference "JP503")
+					(unit 1)
+				)
+				(path "/b86fc60c-dd63-4451-b214-3ffb7e818451/b576315b-cfac-43a9-a7f4-35a8d6c546d6"
+					(reference "JP403")
+					(unit 1)
+				)
+				(path "/b86fc60c-dd63-4451-b214-3ffb7e818451/c95ee7f9-7fa4-4bdb-a483-aaca46f0966a"
+					(reference "JP303")
+					(unit 1)
+				)
+				(path "/b86fc60c-dd63-4451-b214-3ffb7e818451/e10c5975-1151-4adc-aec3-a2da788461ba"
+					(reference "JP203")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 181.61 125.73 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "4f71ad72-da62-4294-872f-e3c615029d3b")
+		(property "Reference" "#PWR0511"
+			(at 181.61 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 179.578 129.794 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 181.61 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 181.61 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 181.61 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f1c663ef-9646-4b09-8aa0-3c29538f418e")
+		)
+		(instances
+			(project "rpi pico printer board"
+				(path "/b86fc60c-dd63-4451-b214-3ffb7e818451/30849447-4a26-4bcd-ac30-4cbf4d915378"
+					(reference "#PWR0511")
+					(unit 1)
+				)
+				(path "/b86fc60c-dd63-4451-b214-3ffb7e818451/b576315b-cfac-43a9-a7f4-35a8d6c546d6"
+					(reference "#PWR0411")
+					(unit 1)
+				)
+				(path "/b86fc60c-dd63-4451-b214-3ffb7e818451/c95ee7f9-7fa4-4bdb-a483-aaca46f0966a"
+					(reference "#PWR0311")
+					(unit 1)
+				)
+				(path "/b86fc60c-dd63-4451-b214-3ffb7e818451/e10c5975-1151-4adc-aec3-a2da788461ba"
+					(reference "#PWR0211")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 175.26 121.92 0)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "52f8525e-0e7f-4a8c-887a-424d5132dca2")
+		(property "Reference" "C504"
+			(at 171.196 120.396 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "1n"
+			(at 173.228 120.396 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 176.2252 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 175.26 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 175.26 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SMT" "Y"
+			(at 175.26 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Basic Part" "CL10B102KB8NNNC "
+			(at 175.26 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "CL10B102KB8NNNC "
+			(at 175.26 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "34785b48-6368-4ab7-b40c-61e33952cc8c")
+		)
+		(pin "1"
+			(uuid "ea0a7132-6953-4d51-92a4-6d4c393ae7f5")
+		)
+		(instances
+			(project "rpi pico printer board"
+				(path "/b86fc60c-dd63-4451-b214-3ffb7e818451/30849447-4a26-4bcd-ac30-4cbf4d915378"
+					(reference "C504")
+					(unit 1)
+				)
+				(path "/b86fc60c-dd63-4451-b214-3ffb7e818451/b576315b-cfac-43a9-a7f4-35a8d6c546d6"
+					(reference "C404")
+					(unit 1)
+				)
+				(path "/b86fc60c-dd63-4451-b214-3ffb7e818451/c95ee7f9-7fa4-4bdb-a483-aaca46f0966a"
+					(reference "C304")
+					(unit 1)
+				)
+				(path "/b86fc60c-dd63-4451-b214-3ffb7e818451/e10c5975-1151-4adc-aec3-a2da788461ba"
+					(reference "C204")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:Varistor_US")
+		(at 173.99 90.17 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "60bf3542-d353-403f-902f-3719e1a37e4b")
+		(property "Reference" "RV501"
+			(at 174.2468 83.82 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "26V"
+			(at 174.2468 86.36 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Inductor_SMD:L_1206_3216Metric"
+			(at 173.99 91.948 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 173.99 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Voltage dependent resistor, US symbol"
+			(at 173.99 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Name" "kicad_builtin_varistor"
+			(at 173.99 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "SUBCKT"
+			(at 173.99 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=A 2=B"
+			(at 173.99 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Params" "threshold=1k"
+			(at 173.99 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Library" "${KICAD7_SYMBOL_DIR}/Simulation_SPICE.sp"
+			(at 173.99 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "ZV20K1206201NIR1"
+			(at 173.99 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SMT" "Y"
+			(at 173.99 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Basic Part" ""
+			(at 173.99 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7303a628-c6fb-4963-ae29-d45ca61ed2d8")
+		)
+		(pin "2"
+			(uuid "8db8b2ea-6304-40df-bd82-b0a8a0d7965f")
+		)
+		(instances
+			(project "rpi pico printer board"
+				(path "/b86fc60c-dd63-4451-b214-3ffb7e818451/30849447-4a26-4bcd-ac30-4cbf4d915378"
+					(reference "RV501")
+					(unit 1)
+				)
+				(path "/b86fc60c-dd63-4451-b214-3ffb7e818451/b576315b-cfac-43a9-a7f4-35a8d6c546d6"
+					(reference "RV401")
+					(unit 1)
+				)
+				(path "/b86fc60c-dd63-4451-b214-3ffb7e818451/c95ee7f9-7fa4-4bdb-a483-aaca46f0966a"
+					(reference "RV301")
+					(unit 1)
+				)
+				(path "/b86fc60c-dd63-4451-b214-3ffb7e818451/e10c5975-1151-4adc-aec3-a2da788461ba"
+					(reference "RV201")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Jumper:SolderJumper_3_Open")
+		(at 92.71 93.98 0)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(uuid "642f4644-99d0-40a2-93ca-d5df2c0ace78")
+		(property "Reference" "JP505"
+			(at 95.504 96.774 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SolderJumper_3_Open"
+			(at 92.71 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Custom:Bi_0603_Open"
+			(at 92.71 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 92.71 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Solder Jumper, 3-pole, open"
+			(at 92.71 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SMT" ""
+			(at 92.71 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Basic Part" ""
+			(at 92.71 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "68ca4fd1-f67a-4e21-b866-a586497e9d77")
+		)
+		(pin "2"
+			(uuid "011e39d1-5dc3-4aa3-b474-4d83a4465abb")
+		)
+		(pin "1"
+			(uuid "483b75a5-1f8c-4f9a-9324-b386e9975581")
+		)
+		(instances
+			(project "rpi pico printer board"
+				(path "/b86fc60c-dd63-4451-b214-3ffb7e818451/30849447-4a26-4bcd-ac30-4cbf4d915378"
+					(reference "JP505")
+					(unit 1)
+				)
+				(path "/b86fc60c-dd63-4451-b214-3ffb7e818451/b576315b-cfac-43a9-a7f4-35a8d6c546d6"
+					(reference "JP405")
+					(unit 1)
+				)
+				(path "/b86fc60c-dd63-4451-b214-3ffb7e818451/c95ee7f9-7fa4-4bdb-a483-aaca46f0966a"
+					(reference "JP305")
+					(unit 1)
+				)
+				(path "/b86fc60c-dd63-4451-b214-3ffb7e818451/e10c5975-1151-4adc-aec3-a2da788461ba"
+					(reference "JP205")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 154.94 88.9 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "70a883b7-c81c-4f99-b415-2924b1ccd086")
+		(property "Reference" "#PWR0504"
+			(at 161.29 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 158.75 88.8999 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 154.94 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 154.94 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 154.94 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9a9ec036-157d-4248-b8fc-1b6ab927312c")
+		)
+		(instances
+			(project "rpi pico printer board"
+				(path "/b86fc60c-dd63-4451-b214-3ffb7e818451/30849447-4a26-4bcd-ac30-4cbf4d915378"
+					(reference "#PWR0504")
+					(unit 1)
+				)
+				(path "/b86fc60c-dd63-4451-b214-3ffb7e818451/b576315b-cfac-43a9-a7f4-35a8d6c546d6"
+					(reference "#PWR0404")
+					(unit 1)
+				)
+				(path "/b86fc60c-dd63-4451-b214-3ffb7e818451/c95ee7f9-7fa4-4bdb-a483-aaca46f0966a"
+					(reference "#PWR0304")
+					(unit 1)
+				)
+				(path "/b86fc60c-dd63-4451-b214-3ffb7e818451/e10c5975-1151-4adc-aec3-a2da788461ba"
+					(reference "#PWR0204")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 168.91 121.92 0)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "824b792b-b775-4eb6-a6d6-7ed2be63feb3")
+		(property "Reference" "C503"
+			(at 164.846 120.396 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "1n"
+			(at 166.878 120.396 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 169.8752 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 168.91 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 168.91 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SMT" "Y"
+			(at 168.91 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Basic Part" "CL10B102KB8NNNC "
+			(at 168.91 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "CL10B102KB8NNNC "
+			(at 168.91 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "9d4fc7e5-a5bb-4c25-92d0-2cc94b20efb8")
+		)
+		(pin "1"
+			(uuid "4633c73a-f528-43b5-9a03-8492083a44bb")
+		)
+		(instances
+			(project "rpi pico printer board"
+				(path "/b86fc60c-dd63-4451-b214-3ffb7e818451/30849447-4a26-4bcd-ac30-4cbf4d915378"
+					(reference "C503")
+					(unit 1)
+				)
+				(path "/b86fc60c-dd63-4451-b214-3ffb7e818451/b576315b-cfac-43a9-a7f4-35a8d6c546d6"
+					(reference "C403")
+					(unit 1)
+				)
+				(path "/b86fc60c-dd63-4451-b214-3ffb7e818451/c95ee7f9-7fa4-4bdb-a483-aaca46f0966a"
+					(reference "C303")
+					(unit 1)
+				)
+				(path "/b86fc60c-dd63-4451-b214-3ffb7e818451/e10c5975-1151-4adc-aec3-a2da788461ba"
+					(reference "C203")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x04")
+		(at 208.28 100.33 0)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp yes)
+		(uuid "82d47f35-3c05-4a06-bbad-e6698062af9e")
+		(property "Reference" "J504"
+			(at 210.82 100.3301 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Motor"
+			(at 210.82 97.7901 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Custom:JST_XH_plus_2.54mm_01x04"
+			(at 208.28 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 208.28 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 208.28 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SMT" ""
+			(at 208.28 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Basic Part" ""
+			(at 208.28 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "a466bea4-4a42-4dee-9da0-0362aff6b7f0")
+		)
+		(pin "4"
+			(uuid "20fbd4e5-f84e-47a2-957d-dbc0c468aa80")
+		)
+		(pin "1"
+			(uuid "e28a629a-a480-4a8f-ab09-562eb04a7ea6")
+		)
+		(pin "2"
+			(uuid "1c5d3f8f-e217-49ca-96ab-24d7f6b18923")
+		)
+		(instances
+			(project "rpi pico printer board"
+				(path "/b86fc60c-dd63-4451-b214-3ffb7e818451/30849447-4a26-4bcd-ac30-4cbf4d915378"
+					(reference "J504")
+					(unit 1)
+				)
+				(path "/b86fc60c-dd63-4451-b214-3ffb7e818451/b576315b-cfac-43a9-a7f4-35a8d6c546d6"
+					(reference "J404")
+					(unit 1)
+				)
+				(path "/b86fc60c-dd63-4451-b214-3ffb7e818451/c95ee7f9-7fa4-4bdb-a483-aaca46f0966a"
+					(reference "J304")
+					(unit 1)
+				)
+				(path "/b86fc60c-dd63-4451-b214-3ffb7e818451/e10c5975-1151-4adc-aec3-a2da788461ba"
+					(reference "J204")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 161.29 74.93 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "b7253076-c58e-4327-96ae-f274a5b03f46")
+		(property "Reference" "#PWR0502"
+			(at 161.29 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 161.29 78.994 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 161.29 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 161.29 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 161.29 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "be572cbf-fe77-4cdd-90b0-4e589b2c347b")
+		)
+		(instances
+			(project "rpi pico printer board"
+				(path "/b86fc60c-dd63-4451-b214-3ffb7e818451/30849447-4a26-4bcd-ac30-4cbf4d915378"
+					(reference "#PWR0502")
+					(unit 1)
+				)
+				(path "/b86fc60c-dd63-4451-b214-3ffb7e818451/b576315b-cfac-43a9-a7f4-35a8d6c546d6"
+					(reference "#PWR0402")
+					(unit 1)
+				)
+				(path "/b86fc60c-dd63-4451-b214-3ffb7e818451/c95ee7f9-7fa4-4bdb-a483-aaca46f0966a"
+					(reference "#PWR0302")
+					(unit 1)
+				)
+				(path "/b86fc60c-dd63-4451-b214-3ffb7e818451/e10c5975-1151-4adc-aec3-a2da788461ba"
+					(reference "#PWR0202")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 154.94 111.76 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c30c191f-367d-47f4-8870-4fab0d832308")
+		(property "Reference" "#PWR0508"
+			(at 161.29 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 158.75 111.7599 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 154.94 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 154.94 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 154.94 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "4b984cca-f829-4cb4-9c33-e9ad7f96fd58")
+		)
+		(instances
+			(project "rpi pico printer board"
+				(path "/b86fc60c-dd63-4451-b214-3ffb7e818451/30849447-4a26-4bcd-ac30-4cbf4d915378"
+					(reference "#PWR0508")
+					(unit 1)
+				)
+				(path "/b86fc60c-dd63-4451-b214-3ffb7e818451/b576315b-cfac-43a9-a7f4-35a8d6c546d6"
+					(reference "#PWR0408")
+					(unit 1)
+				)
+				(path "/b86fc60c-dd63-4451-b214-3ffb7e818451/c95ee7f9-7fa4-4bdb-a483-aaca46f0966a"
+					(reference "#PWR0308")
+					(unit 1)
+				)
+				(path "/b86fc60c-dd63-4451-b214-3ffb7e818451/e10c5975-1151-4adc-aec3-a2da788461ba"
+					(reference "#PWR0208")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 187.96 125.73 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "c5b50c01-9949-43ac-8364-f3e76f8777d6")
+		(property "Reference" "#PWR0512"
+			(at 187.96 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 185.928 129.794 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 187.96 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 187.96 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 187.96 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "51ba46be-eec9-4642-8a0b-0c46726fedcd")
+		)
+		(instances
+			(project "rpi pico printer board"
+				(path "/b86fc60c-dd63-4451-b214-3ffb7e818451/30849447-4a26-4bcd-ac30-4cbf4d915378"
+					(reference "#PWR0512")
+					(unit 1)
+				)
+				(path "/b86fc60c-dd63-4451-b214-3ffb7e818451/b576315b-cfac-43a9-a7f4-35a8d6c546d6"
+					(reference "#PWR0412")
+					(unit 1)
+				)
+				(path "/b86fc60c-dd63-4451-b214-3ffb7e818451/c95ee7f9-7fa4-4bdb-a483-aaca46f0966a"
+					(reference "#PWR0312")
+					(unit 1)
+				)
+				(path "/b86fc60c-dd63-4451-b214-3ffb7e818451/e10c5975-1151-4adc-aec3-a2da788461ba"
+					(reference "#PWR0212")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+24V")
+		(at 161.29 66.04 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c808440b-eae3-4f77-ad4e-a3cfed4e5dbb")
+		(property "Reference" "#PWR0501"
+			(at 161.29 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+24V"
+			(at 161.29 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 161.29 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 161.29 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+24V\""
+			(at 161.29 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e3005401-fb17-4cf2-8162-7d2f64097d3f")
+		)
+		(instances
+			(project "rpi pico printer board"
+				(path "/b86fc60c-dd63-4451-b214-3ffb7e818451/30849447-4a26-4bcd-ac30-4cbf4d915378"
+					(reference "#PWR0501")
+					(unit 1)
+				)
+				(path "/b86fc60c-dd63-4451-b214-3ffb7e818451/b576315b-cfac-43a9-a7f4-35a8d6c546d6"
+					(reference "#PWR0401")
+					(unit 1)
+				)
+				(path "/b86fc60c-dd63-4451-b214-3ffb7e818451/c95ee7f9-7fa4-4bdb-a483-aaca46f0966a"
+					(reference "#PWR0301")
+					(unit 1)
+				)
+				(path "/b86fc60c-dd63-4451-b214-3ffb7e818451/e10c5975-1151-4adc-aec3-a2da788461ba"
+					(reference "#PWR0201")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3V3")
+		(at 99.06 69.85 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "db79b8a2-f1f9-469f-8cc4-5aef21ce1bf8")
+		(property "Reference" "#PWR0505"
+			(at 99.06 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 96.266 65.532 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 99.06 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 99.06 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 99.06 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "8dac85f0-24ab-4d7f-bbec-8ef9c460b7bd")
+		)
+		(instances
+			(project "rpi pico printer board"
+				(path "/b86fc60c-dd63-4451-b214-3ffb7e818451/30849447-4a26-4bcd-ac30-4cbf4d915378"
+					(reference "#PWR0505")
+					(unit 1)
+				)
+				(path "/b86fc60c-dd63-4451-b214-3ffb7e818451/b576315b-cfac-43a9-a7f4-35a8d6c546d6"
+					(reference "#PWR0405")
+					(unit 1)
+				)
+				(path "/b86fc60c-dd63-4451-b214-3ffb7e818451/c95ee7f9-7fa4-4bdb-a483-aaca46f0966a"
+					(reference "#PWR0305")
+					(unit 1)
+				)
+				(path "/b86fc60c-dd63-4451-b214-3ffb7e818451/e10c5975-1151-4adc-aec3-a2da788461ba"
+					(reference "#PWR0205")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Jumper:SolderJumper_3_Open")
+		(at 92.71 78.74 0)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(uuid "e2b6715a-2f3a-4251-84e8-17e5f2432b2a")
+		(property "Reference" "JP502"
+			(at 95.504 81.534 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SolderJumper_3_Open"
+			(at 92.71 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Custom:Bi_0603_Open"
+			(at 92.71 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 92.71 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Solder Jumper, 3-pole, open"
+			(at 92.71 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SMT" ""
+			(at 92.71 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Basic Part" ""
+			(at 92.71 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "9c138555-32e3-4612-b80d-1c63469112a0")
+		)
+		(pin "2"
+			(uuid "3413f8f8-0084-4afc-bb4c-702c53c2d6e6")
+		)
+		(pin "1"
+			(uuid "e5e92e0e-c1a4-4c48-9b8f-270fca2c2fae")
+		)
+		(instances
+			(project "rpi pico printer board"
+				(path "/b86fc60c-dd63-4451-b214-3ffb7e818451/30849447-4a26-4bcd-ac30-4cbf4d915378"
+					(reference "JP502")
+					(unit 1)
+				)
+				(path "/b86fc60c-dd63-4451-b214-3ffb7e818451/b576315b-cfac-43a9-a7f4-35a8d6c546d6"
+					(reference "JP402")
+					(unit 1)
+				)
+				(path "/b86fc60c-dd63-4451-b214-3ffb7e818451/c95ee7f9-7fa4-4bdb-a483-aaca46f0966a"
+					(reference "JP302")
+					(unit 1)
+				)
+				(path "/b86fc60c-dd63-4451-b214-3ffb7e818451/e10c5975-1151-4adc-aec3-a2da788461ba"
+					(reference "JP202")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_US")
+		(at 80.01 86.36 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "e340f41e-dd23-4e13-a535-6a673f93589e")
+		(property "Reference" "R501"
+			(at 81.2801 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "100"
+			(at 78.7401 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 79.756 87.376 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 80.01 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, US symbol"
+			(at 80.01 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SMT" "Y"
+			(at 80.01 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Basic Part" "0603WAF1000T5E "
+			(at 80.01 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "8194334a-6662-41ee-9c1e-e0eb777c6007")
+		)
+		(pin "1"
+			(uuid "0838e55a-f326-412b-a874-16bd9d4c301e")
+		)
+		(instances
+			(project "rpi pico printer board"
+				(path "/b86fc60c-dd63-4451-b214-3ffb7e818451/30849447-4a26-4bcd-ac30-4cbf4d915378"
+					(reference "R501")
+					(unit 1)
+				)
+				(path "/b86fc60c-dd63-4451-b214-3ffb7e818451/b576315b-cfac-43a9-a7f4-35a8d6c546d6"
+					(reference "R401")
+					(unit 1)
+				)
+				(path "/b86fc60c-dd63-4451-b214-3ffb7e818451/c95ee7f9-7fa4-4bdb-a483-aaca46f0966a"
+					(reference "R301")
+					(unit 1)
+				)
+				(path "/b86fc60c-dd63-4451-b214-3ffb7e818451/e10c5975-1151-4adc-aec3-a2da788461ba"
+					(reference "R201")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Jumper:SolderJumper_3_Open")
+		(at 92.71 101.6 0)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(uuid "eb495aae-0604-4e01-8f2b-c071408de998")
+		(property "Reference" "JP506"
+			(at 95.504 104.394 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SolderJumper_3_Open"
+			(at 92.71 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Custom:Bi_0603_Open"
+			(at 92.71 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 92.71 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Solder Jumper, 3-pole, open"
+			(at 92.71 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SMT" ""
+			(at 92.71 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Basic Part" ""
+			(at 92.71 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "72333d13-3df9-478d-89f9-81db63b75de4")
+		)
+		(pin "2"
+			(uuid "cf9f06ba-3f72-4e70-bb67-47438fcaebd5")
+		)
+		(pin "1"
+			(uuid "c51e13e1-5c0e-407b-b741-87f73e1a71b2")
+		)
+		(instances
+			(project "rpi pico printer board"
+				(path "/b86fc60c-dd63-4451-b214-3ffb7e818451/30849447-4a26-4bcd-ac30-4cbf4d915378"
+					(reference "JP506")
+					(unit 1)
+				)
+				(path "/b86fc60c-dd63-4451-b214-3ffb7e818451/b576315b-cfac-43a9-a7f4-35a8d6c546d6"
+					(reference "JP406")
+					(unit 1)
+				)
+				(path "/b86fc60c-dd63-4451-b214-3ffb7e818451/c95ee7f9-7fa4-4bdb-a483-aaca46f0966a"
+					(reference "JP306")
+					(unit 1)
+				)
+				(path "/b86fc60c-dd63-4451-b214-3ffb7e818451/e10c5975-1151-4adc-aec3-a2da788461ba"
+					(reference "JP206")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3V3")
+		(at 154.94 109.22 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "eda3887c-860e-436e-95a7-80e28884e71a")
+		(property "Reference" "#PWR0507"
+			(at 151.13 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 158.75 109.2199 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 154.94 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 154.94 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 154.94 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e0a641c7-cd05-4ac9-8795-67f9bffb9886")
+		)
+		(instances
+			(project "rpi pico printer board"
+				(path "/b86fc60c-dd63-4451-b214-3ffb7e818451/30849447-4a26-4bcd-ac30-4cbf4d915378"
+					(reference "#PWR0507")
+					(unit 1)
+				)
+				(path "/b86fc60c-dd63-4451-b214-3ffb7e818451/b576315b-cfac-43a9-a7f4-35a8d6c546d6"
+					(reference "#PWR0407")
+					(unit 1)
+				)
+				(path "/b86fc60c-dd63-4451-b214-3ffb7e818451/c95ee7f9-7fa4-4bdb-a483-aaca46f0966a"
+					(reference "#PWR0307")
+					(unit 1)
+				)
+				(path "/b86fc60c-dd63-4451-b214-3ffb7e818451/e10c5975-1151-4adc-aec3-a2da788461ba"
+					(reference "#PWR0207")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:Varistor_US")
+		(at 186.69 90.17 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "edcb1295-9078-4ad0-bd1c-fc0f232e350d")
+		(property "Reference" "RV502"
+			(at 186.9468 83.82 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "26V"
+			(at 186.9468 86.36 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Inductor_SMD:L_1206_3216Metric"
+			(at 186.69 91.948 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 186.69 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Voltage dependent resistor, US symbol"
+			(at 186.69 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Name" "kicad_builtin_varistor"
+			(at 186.69 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "SUBCKT"
+			(at 186.69 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=A 2=B"
+			(at 186.69 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Params" "threshold=1k"
+			(at 186.69 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Library" "${KICAD7_SYMBOL_DIR}/Simulation_SPICE.sp"
+			(at 186.69 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "ZV20K1206201NIR1"
+			(at 186.69 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SMT" "Y"
+			(at 186.69 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Basic Part" ""
+			(at 186.69 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "13e4fa80-ad90-4a9e-a7f6-ef13b73bd701")
+		)
+		(pin "2"
+			(uuid "4854b603-9450-410a-af51-4c8ca0c1fdf1")
+		)
+		(instances
+			(project "rpi pico printer board"
+				(path "/b86fc60c-dd63-4451-b214-3ffb7e818451/30849447-4a26-4bcd-ac30-4cbf4d915378"
+					(reference "RV502")
+					(unit 1)
+				)
+				(path "/b86fc60c-dd63-4451-b214-3ffb7e818451/b576315b-cfac-43a9-a7f4-35a8d6c546d6"
+					(reference "RV402")
+					(unit 1)
+				)
+				(path "/b86fc60c-dd63-4451-b214-3ffb7e818451/c95ee7f9-7fa4-4bdb-a483-aaca46f0966a"
+					(reference "RV302")
+					(unit 1)
+				)
+				(path "/b86fc60c-dd63-4451-b214-3ffb7e818451/e10c5975-1151-4adc-aec3-a2da788461ba"
+					(reference "RV202")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 161.29 71.12 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f4f3437d-0c5c-4137-a014-979b7a51ee2e")
+		(property "Reference" "C501"
+			(at 165.1 70.485 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10u"
+			(at 165.1 73.025 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_1210_3225Metric"
+			(at 162.2552 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 161.29 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 161.29 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SMT" "Y"
+			(at 161.29 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Basic Part" ""
+			(at 161.29 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "CL32B106KBJNNNE "
+			(at 161.29 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7209bcb2-cc95-4cd9-b681-3e5560d60bef")
+		)
+		(pin "2"
+			(uuid "04c33afd-1886-46a3-993d-5a6f0a8b13cb")
+		)
+		(instances
+			(project "rpi pico printer board"
+				(path "/b86fc60c-dd63-4451-b214-3ffb7e818451/30849447-4a26-4bcd-ac30-4cbf4d915378"
+					(reference "C501")
+					(unit 1)
+				)
+				(path "/b86fc60c-dd63-4451-b214-3ffb7e818451/b576315b-cfac-43a9-a7f4-35a8d6c546d6"
+					(reference "C401")
+					(unit 1)
+				)
+				(path "/b86fc60c-dd63-4451-b214-3ffb7e818451/c95ee7f9-7fa4-4bdb-a483-aaca46f0966a"
+					(reference "C301")
+					(unit 1)
+				)
+				(path "/b86fc60c-dd63-4451-b214-3ffb7e818451/e10c5975-1151-4adc-aec3-a2da788461ba"
+					(reference "C201")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Driver_Motor:Pololu_Breakout_A4988")
+		(at 139.7 99.06 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "f68434f3-14ca-4f63-9ebb-dc316472612d")
+		(property "Reference" "A501"
+			(at 127.508 82.296 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Stepper Driver Breakout"
+			(at 127.254 116.078 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Custom:BTT_TMC2209_Breakout-16_15.2x20.3mm"
+			(at 146.685 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 142.24 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 139.7 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SMT" ""
+			(at 139.7 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Basic Part" ""
+			(at 139.7 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "RS1-08-G "
+			(at 139.7 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "c7f02336-5363-49a5-ba9d-6b5ba688bf43")
+		)
+		(pin "7"
+			(uuid "f18e56c4-5576-4911-a851-8919bb6a4dcd")
+		)
+		(pin "16"
+			(uuid "aa027b45-eef6-445b-b691-8fd9290a00d1")
+		)
+		(pin "10"
+			(uuid "174cdac8-1ab0-4ab8-9aa1-c96e8f16fc8c")
+		)
+		(pin "5"
+			(uuid "d1c94bda-cb88-4c40-b4fe-6da2d396dd8b")
+		)
+		(pin "1"
+			(uuid "127e476f-d803-4167-ba18-3a6c77c29801")
+		)
+		(pin "9"
+			(uuid "3e9b9ac4-4d2a-43ff-8770-32f6ce639b3b")
+		)
+		(pin "13"
+			(uuid "4e0af25b-2c45-4f0f-815f-df06a20be7e5")
+		)
+		(pin "11"
+			(uuid "43c1c998-654f-44b5-a02e-fb6c797c2969")
+		)
+		(pin "15"
+			(uuid "20543130-f634-4037-9bf0-d9339d5729a6")
+		)
+		(pin "14"
+			(uuid "513de821-30bf-4aec-bc09-da84ec8f3149")
+		)
+		(pin "12"
+			(uuid "f8f3f91f-7da9-4a6f-837b-ec77d6d13d8f")
+		)
+		(pin "8"
+			(uuid "e8b7dd4e-3888-46fc-9ba7-be8108997453")
+		)
+		(pin "3"
+			(uuid "5214dca0-78d9-48e8-950d-6fe7a812e643")
+		)
+		(pin "4"
+			(uuid "60098acd-ec78-4310-86cc-96da7f1cfe79")
+		)
+		(pin "6"
+			(uuid "82ece47f-a8c9-4fa3-9311-05379053d4a4")
+		)
+		(pin "18"
+			(uuid "c30f560f-574c-422f-9a53-cffaab41645a")
+		)
+		(pin "17"
+			(uuid "aad7d348-920b-40d8-ac61-673b22a3054d")
+		)
+		(instances
+			(project "rpi pico printer board"
+				(path "/b86fc60c-dd63-4451-b214-3ffb7e818451/30849447-4a26-4bcd-ac30-4cbf4d915378"
+					(reference "A501")
+					(unit 1)
+				)
+				(path "/b86fc60c-dd63-4451-b214-3ffb7e818451/b576315b-cfac-43a9-a7f4-35a8d6c546d6"
+					(reference "A401")
+					(unit 1)
+				)
+				(path "/b86fc60c-dd63-4451-b214-3ffb7e818451/c95ee7f9-7fa4-4bdb-a483-aaca46f0966a"
+					(reference "A301")
+					(unit 1)
+				)
+				(path "/b86fc60c-dd63-4451-b214-3ffb7e818451/e10c5975-1151-4adc-aec3-a2da788461ba"
+					(reference "A201")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Jumper:SolderJumper_3_Open")
+		(at 92.71 71.12 0)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(uuid "f84fe8b8-b09a-48c0-ba12-364faeffb43a")
+		(property "Reference" "JP501"
+			(at 95.504 73.914 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SolderJumper_3_Open"
+			(at 92.71 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Custom:Bi_0603_Open"
+			(at 92.71 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 92.71 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Solder Jumper, 3-pole, open"
+			(at 92.71 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SMT" ""
+			(at 92.71 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Basic Part" ""
+			(at 92.71 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "6facd8f9-3327-4848-9151-0dc448f2d1c8")
+		)
+		(pin "2"
+			(uuid "2c3439c0-9d0c-4ddc-b390-cd482fa3a7a4")
+		)
+		(pin "1"
+			(uuid "ee8485d7-c1ac-4896-8393-30e2e42d5a09")
+		)
+		(instances
+			(project ""
+				(path "/b86fc60c-dd63-4451-b214-3ffb7e818451/30849447-4a26-4bcd-ac30-4cbf4d915378"
+					(reference "JP501")
+					(unit 1)
+				)
+				(path "/b86fc60c-dd63-4451-b214-3ffb7e818451/b576315b-cfac-43a9-a7f4-35a8d6c546d6"
+					(reference "JP401")
+					(unit 1)
+				)
+				(path "/b86fc60c-dd63-4451-b214-3ffb7e818451/c95ee7f9-7fa4-4bdb-a483-aaca46f0966a"
+					(reference "JP301")
+					(unit 1)
+				)
+				(path "/b86fc60c-dd63-4451-b214-3ffb7e818451/e10c5975-1151-4adc-aec3-a2da788461ba"
+					(reference "JP201")
+					(unit 1)
+				)
+			)
+		)
+	)
+)
