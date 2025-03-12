@@ -5,7 +5,7 @@ plugins:
   - jekyll-seo-tag
 custom_buttons:
   - 1:
-    url: https://github.com/jackw01/scanlight
+    url: https://github.com/jackw01/pi-pico-printer-board
     text: View on GitHub
   - 2:
     url: https://ko-fi.com/jackw01
