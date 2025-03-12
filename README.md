@@ -2,7 +2,7 @@
 
 ![](images/in_printer.jpg)
 
-## Features
+## features
 
 * Klipper compatible
 * Uses Raspberry Pi Pico (RP2040)
@@ -22,7 +22,7 @@
 * Labeled PCB for ease of setup and tinkering
 * Open source PCB design
 
-## Design
+## design
 
 ![](images/all_layers.png)
 
@@ -38,5 +38,5 @@
 
 [BOM (Excel)](pcb/bom.xlsx)
 
-### License
+### license
 This project is released under the CERN Open Hardware Licence Version 2 - Weakly Reciprocal (CERN-OHL-W V2).
