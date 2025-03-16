@@ -1,5 +1,21 @@
 remote_theme: jackw01/jackw01.github.io
+# used by SEO tag
 title: Pi Pico Printer Board
+author:
+  name: Jack Whittaker
+  url: https://jackw01.github.io
+logo: https://jackw01.github.io/logo.png
+defaults:
+  - scope:
+      path: ""
+    values:
+      image: images/in_printer.jpg
+social:
+  name: Jack Whittaker
+  links:
+    - https://github.com/jackw01
+    - https://www.linkedin.com/in/jack-whittaker-b35961183/
+# end seo
 hide_first_h1: true
 plugins:
   - jekyll-seo-tag
